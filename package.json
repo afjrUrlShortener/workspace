@@ -1,8 +1,11 @@
 {
   "name": "workspace",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
-    "start": "tsx index.ts"
+    "init": "tsx src/index.ts --init",
+    "pull": "tsx src/index.ts --pull",
+    "prune": "tsx src/index.ts --prune"
   },
   "author": "afjrUrlShortener",
   "license": "MIT",
