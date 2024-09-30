@@ -1,0 +1,18 @@
+[
+  {
+    "sshUrl": "git@github.com:afjrUrlShortener/urlshortener-backend.git",
+    "directories": ["repositories", "urlshortener-backend"]
+  },
+  {
+    "sshUrl": "git@github.com:afjrUrlShortener/urlshortener-frontend.git",
+    "directories": ["repositories", "urlshortener-frontend"]
+  },
+  {
+    "sshUrl": "git@github.com:afjrUrlShortener/watcher.git",
+    "directories": ["repositories", "watcher"]
+  },
+  {
+    "sshUrl": "git@github.com:afjrUrlShortener/github-bot.git",
+    "directories": ["repositories", "github-bot"]
+  }
+]

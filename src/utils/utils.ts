@@ -1,5 +1,15 @@
 import path from "node:path";
 import * as fs from "node:fs/promises";
+import util from "node:util";
+import child_process from "node:child_process";
+import {Repository} from "../types/repository";
+
+export const execAsync = util.promisify(child_process.exec);
+
+export async function getRepositories() {
+    const file = await fs.readFile(resolvePath(['repositories.json']), 'utf8');
+    return JSON.parse(file) as Repository[];
+}
 
 export const args = process.argv.slice(2);
 

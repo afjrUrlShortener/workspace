@@ -4,8 +4,7 @@
   "type": "module",
   "scripts": {
     "init": "tsx src/index.ts --init",
-    "pull": "tsx src/index.ts --pull",
-    "prune": "tsx src/index.ts --prune"
+    "git": "tsx src/index.ts"
   },
   "author": "afjrUrlShortener",
   "license": "MIT",
